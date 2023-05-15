@@ -1,3 +1,5 @@
+## Introducing LawSCHOLAR # a legal assistant chat bot
+
 This relies on ChatGPT, SerpAPI, LandChain, and Google Scholar to create useful legal content.
 
 https://serpapi.com/google-scholar-api
