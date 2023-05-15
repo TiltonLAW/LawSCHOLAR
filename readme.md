@@ -10,7 +10,7 @@ https://python.langchain.com/en/latest/index.html
 
 https://scholar.google.com/
 
-This is the process employed by the project:
+The HTML WebUI takes an input and submits {PROMT} with javeascript and passes it to the python code. The python code then employs the following reasoning method:
 
 ## app.py: 
 
