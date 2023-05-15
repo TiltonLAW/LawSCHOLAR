@@ -32,8 +32,10 @@ This module analyzes the search results in more detail. It first downloads the f
 
 This module generates the final output, which is a response to the legal question. It uses OpenAI's GPT model to generate a response based on the case information and the initial prompt. The generated response is then returned to the Flask application.
 
+-----
+
 The system is designed to work in a conversational manner, which means it processes the input question, conducts a search, analyzes the results, and generates a response all in the context of a conversation.
 
 Please note that this system relies heavily on the capabilities of OpenAI's GPT model and the LangChain library for generating search terms, ranking search results, calculating relevance scores, and generating the final response. It also uses SerpAPI for querying Google Scholar and Beautiful Soup for parsing the downloaded case texts.
 
-Currently the project is stalled becaise google has blocked me for making too many requests.
+Currently the project is stalled because google has blocked me for making too many web requests. Another API access method or caselaw database will be required to complete the project.  Please write me with suggestions.  The project should work on your local machine until you get blocked too.  I could try to use a rotating VPN to get around google, but I prefer to use methods acceptable to the project third-party resources. Other options include https://www.law.cornell.edu/search/site; https://case.law/search/#/; or my own state's https://www.vermontjudiciary.org/opinions-decisions.  So far, I have not been able to implement these sites as host databases.
