@@ -4,8 +4,8 @@ import requests
 
 # search.py
 
-os.environ['OPENAI_API_KEY'] = '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'
-os.environ['SERPAPI_KEY'] = '58fe22a8703d6e9bcb4befc802ec3e32a28509fe4998be64138245cc7ff801f4'
+os.environ['OPENAI_API_KEY'] = 'sk-insert-your-openai-api-key-here'
+os.environ['SERPAPI_KEY'] = 'insert-your-serp-api-key-here'
 
 def generate_query(prompt):
     openai.api_key = os.environ['OPENAI_API_KEY']
